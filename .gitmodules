@@ -1,0 +1,8 @@
+[submodule "octave-docker"]
+	path = octave-docker
+	url = https://github.com/gnu-octave/docker
+	branch = main
+[submodule "data/BattMo"]
+	path = data/BattMo
+	url = https://github.com/BattMoTeam/BattMo
+	branch = octave
