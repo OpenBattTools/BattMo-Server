@@ -1,0 +1,14 @@
+# before you start set permissions to user jovyan
+# sudo chown -R 1111:1111 data
+
+version: '3.8'
+services:
+  battmo:
+    build:
+      context: ./octave-docker/jupyterlab
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data:/home/jovyan/
