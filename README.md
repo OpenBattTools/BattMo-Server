@@ -1,5 +1,5 @@
 # BattMo-Server
-Jupyterlab Server for BattMo
+Jupyterlab Server for [BattMo](https://github.com/BattMoTeam/BattMo)
 
 ## Quick start
 
