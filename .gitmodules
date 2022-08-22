@@ -1,8 +1,8 @@
-[submodule "octave-docker"]
-	path = octave-docker
-	url = https://github.com/gnu-octave/docker
-	branch = main
 [submodule "data/BattMo"]
 	path = data/BattMo
 	url = https://github.com/BattMoTeam/BattMo
 	branch = octave
+[submodule "octave-docker"]
+	path = octave-docker
+	url = https://github.com/OpenBattTools/octave-docker
+	branch = jupyterlab-oct6.4.0
